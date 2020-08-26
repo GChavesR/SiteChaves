@@ -1,0 +1,168 @@
+body{
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,255,0)), to(rgba(0,100,0))) fixed;*/
+  background-color: gray;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Racing Sans One', cursive;
+  color: white;
+}
+
+h2{
+    font-family: 'Racing Sans One', cursive;
+    color: #2c2e2d;
+}
+
+.fundo{
+  background-color: rgba(245,222,179);
+}
+
+p{
+  font-family: "Comic-Sans", sans-serif;
+  font-size: 120%;
+}
+
+.ft{
+  border-radius: 8%;
+  margin-top: 50px;
+  border: black solid 3px;
+  display: inline-block;
+  float: left;
+}
+
+.ftdgt{
+  width: 300px;
+  border-radius: 8%;
+  margin-top: 50px;
+  border: black solid 3px;
+  display: inline-block;
+  float: left;
+}
+
+.ftdgt1{
+  width: 300px;
+  border-radius: 8%;
+  margin-top: 50px;
+  border: black solid 3px;
+  float: right;
+  display: inline;
+}
+
+.ftdjg{
+  width: 500px;
+  border-radius: 8%;
+  margin-top: 100px;
+  border: black solid 3px;
+  float: left;
+  display: block;
+}
+
+.ftdan{
+  width: 500px;
+  border-radius: 8%;
+  margin-top: 100px;
+  border: black solid 3px;
+  float: left;
+  display: block;
+  left: 0;
+  clear: left;
+  margin-bottom: 50px;
+}
+
+#jg{
+  padding-top: 350px;
+}
+
+#oh{
+  padding-top: 100px;
+  text-align: center;
+  padding-right: 500px;
+}
+
+.animes{
+    padding-top: 22px;
+    padding-left: 551px;
+}
+
+
+.text{
+  float: left;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+.text1{
+  float: left;
+  padding-left: 15px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+
+.jogos{
+  display: block;
+  padding-left: 550px;
+  padding-top: 100px;
+}
+
+#foto{
+  width: 30px;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+nav{
+  background-color: rgba(16,16,16,.5);
+  width: 350px;
+  left: -350px;
+  height: 100%;
+  position: absolute;
+  transition: all .5s;
+}
+
+a{
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+a:hover{
+  color: #f3f705;
+}
+
+ul{
+  top: 50px;
+  position: absolute;
+  width: 100%;
+}
+
+label{
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(350px);
+}
+
+
+.topmenu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #252626;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 18px;
+}
